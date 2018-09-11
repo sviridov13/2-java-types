@@ -1,4 +1,4 @@
-package com.example.task04;
+package com.example.task03;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
