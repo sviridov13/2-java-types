@@ -4,13 +4,13 @@ public class Task05 {
 
     public static String solution(int x) {
 
-        char[] stringNumber = Integer.toString(x).toCharArray();
-        for (char c : stringNumber)
-        {
-            if ((int) c % 2 !=0)
+        int number = x;
+        while (number !=0) {
+            if ((number % 10) % 2 !=0)
             {
                 return "FALSE";
             }
+            number /= 10;
         }
         return "TRUE";
     }
