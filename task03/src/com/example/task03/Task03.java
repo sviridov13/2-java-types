@@ -13,7 +13,7 @@ public class Task03 {
         // Здесь вы можете вручную протестировать ваше решение, вызывая реализуемый метод и смотря результат
         // например вот так:
         /*
-        int result = solution(345);
+        int result = getMetreFromCentimetre(345);
         System.out.println(result);
          */
     }
