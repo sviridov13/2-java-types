@@ -6,16 +6,7 @@ public class Task11 {
 
         // TODO исправьте функцию, чтобы избежать накопления ошибки
 
-        if (percent > 0.001) {
-            for (int i = 1; i <= 12; i++) {
-                sum += sum * percent;
-            }
-            return sum;
-        }
-        else {
-            sum += sum * (percent * 12);
-        }
-
+        sum = (float)((double)(sum) * StrictMath.pow(1d + percent, 12d));
         return sum;
     }
 
