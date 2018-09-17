@@ -20,6 +20,7 @@ public class Tests {
         check(15, 0.000000009f, 15.000002f);
         check(1000, 0f, 1000f);
         check(1000, 1f, 4096000f);
+        check(500, 0.0100077f, 563.46405f);
     }
 
     @Test
